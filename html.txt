@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <nav class="logo"><img src="clglogo.jpg" alt="logo" height="70px" width="70px" ></nav>
+            <nav class="navlink">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">courses</a></li>
+                    <li><a href="">placements</a></li>
+                    <li><a href="">contact us</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+    <section>
+        <h1>Application Form</h1>
+        <div class="form">
+            
+            <form action="">
+                <label for="">Name</label>
+                <input type="text" name="" id="" placeholder="Enter your name"><br>
+                <label for="">DOB</label>
+                <input type="date" name="" id="" placeholder="Enter DOB"><br>
+                <label for="">Father Name</label>
+                <input type="text" name="" id="" placeholder="Enter Father Name"><br>
+                <label for="">Mother Name</label>
+                <input type="text" name="" id="" placeholder="Enter Mother Name"><br>
+                <label for="">Adress:</label>
+                <textarea rows="3" cols="25"  placeholder="Enter the Adress"></textarea><br>
+                <label for="">Gender: </label>
+                <input type="radio" name="Gender" id="" value="Female">
+                <label for="Female">Female</label>
+                <input type="radio" name="Gender" id="" value="Male">
+                <label for="Male">Male</label><br>
+                <label for="">Language Known: </label>
+                <input type="checkbox" name="" id="" value="Tamil">
+                <label for="">Tamil </label>
+                <input type="checkbox" name="" id="" value="English">
+                <label for="">English </label>
+                <input type="checkbox" name="" id="" value="Malayalam">
+                <label for="">Malayalam </label><br>
+                <label for=""><i class="fa-solid fa-envelope"></i>Email</label>
+                <input type="Email" name="" id="" placeholder="@gmail.com"><br>
+                <button type="submit"><a href="">Submit</a></button>
+            </form>
+        </div>
+    </section>
+    <section class="about">
+        <h2>About us:</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id fugiat nesciunt exercitationem doloremque ipsam modi possimus esse nihil, quae ex quis dolorum officia accusantium similique assumenda explicabo labore, atque laborum.
+        Error, aspernatur numquam repudiandae optio facere est placeat nemo quisquam perspiciatis soluta illo esse delectus ab fugit architecto laboriosam consequuntur adipisci? Voluptates enim dolores odit, nulla provident corporis adipisci beatae!
+        Doloribus vitae at quia provident saepe repudiandae accusantium itaque molestias reprehenderit dicta distinctio nobis eos illo natus obcaecati magni hic laudantium, laboriosam quisquam odio. Officia asperiores obcaecati natus tempora quo.
+        Modi eius nemo architecto suscipit enim blanditiis, fugit nam consequuntur, quae necessitatibus tenetur, ut libero inventore recusandae pariatur doloremque aliquam. Consectetur alias enim illum quisquam! Assumenda perferendis aliquam reprehenderit delectus.
+        Harum nisi labore temporibus omnis expedita incidunt sint fugiat unde molestias ipsa fuga doloremque illo error assumenda dolorem voluptatem doloribus sapiente quidem nobis, eos saepe veritatis explicabo. Quas, quae fugiat?
+        Qui tempore minima et officiis dicta laudantium quis aliquid maxime est, vitae repudiandae debitis illo sapiente, necessitatibus sed, pariatur illum numquam enim natus nulla quaerat autem aspernatur beatae. Corporis, deleniti?
+        Magni nobis nihil quos expedita ullam. Unde mollitia blanditiis iusto molestiae modi ducimus commodi molestias, rerum quia? Dolorem magnam quod dolorum veniam minus ipsa inventore ab cum totam doloremque? Culpa?
+        Blanditiis cupiditate ducimus cumque magnam voluptate consectetur esse quod tempore! Deserunt nostrum possimus iste fuga vero facere eligendi vel pariatur voluptate, debitis eveniet laudantium maiores rerum itaque ex accusamus voluptatum!</p>
+    </section>
+    <section class="manage">
+        <h2>Management:</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, tenetur laboriosam aspernatur magni dolore dicta quo error, mollitia fuga libero nulla reiciendis accusamus deserunt placeat sit ipsam dolor sunt ipsa.
+        Aut numquam aspernatur hic suscipit omnis cumque ducimus quia, sequi quam earum? Voluptatem architecto magnam qui exercitationem amet assumenda cumque optio corporis, voluptates sunt! Optio error eos velit id expedita?
+        Iusto doloribus officiis tempore modi delectus rerum illum perferendis quia nostrum corrupti, nihil consequuntur assumenda a quos deserunt architecto nam maxime accusantium eum. Fugit omnis dolore eligendi minus veniam expedita.
+        Non doloribus, mollitia quasi quae eligendi consectetur suscipit tempore aliquam quibusdam corrupti hic libero odit nulla laboriosam dignissimos sed ut nihil repellat, fugiat dolorem eveniet. Cupiditate odit placeat explicabo impedit.
+        Dignissimos pariatur est cupiditate. Cumque modi eius nulla impedit ex accusamus unde sed, perspiciatis cupiditate quaerat quisquam minima facere voluptas explicabo nihil neque cum iure praesentium atque itaque amet laboriosam.</p>
+    </section>
+<footer>
+    <div class="contact">
+    <p><i class="fa-solid fa-envelope"></i>info@mgruniversity.com</p>
+    <p><i class="fa-sharp fa-solid fa-phone"></i>1234567890</p>
+</div>
+<div class="social">
+    <p><i class="fa-brands fa-facebook"></i>facebook</p>
+    <p><i class="fa-brands fa-twitter"></i>twitter</p>
+    <p><i class="fa-brands fa-linkedin"></i>linkedin</p>
+</div>
+</footer>
+</body>
+</html>
